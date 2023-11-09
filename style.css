@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css2?family=Merienda');
+
+
+.logo{
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      width: 450px;
+      height: auto;
+}
+
+
+ul {
+      display: flex;
+      justify-content: left;
+      list-style-type: none;
+      background-color: color rgb(0, 0, 0);
+      padding: 5px 0;
+      
+}
+
+
+.navbar{
+      display: flex;
+      background-color:rgb(237, 237, 237);
+      border-radius: 5px;
+      margin: 0px 0px;
+      border: 1px solid rgb(255, 255, 255);
+      list-style-type: none;
+      padding: 5px;
+      font-size: 22px;
+}
+
+
+.navbar a {
+      color: rgb(0, 0, 0);
+      font-family: Playfair Display;
+}
+
+
+.navbar ul li {
+      margin-right: 25px;
+      display: flex;
+      justify-content: left;
+      list-style-type: none;
+}
+
+
+.navbar ul li:last-child {
+      margin-right: 0;
+}
+
+  
+.search-container {
+      display: flex;
+      align-content: center;
+      margin-left: auto;
+      flex-wrap: wrap;
+
+}
+
+
+.bloomPetals {
+      flex: 1;
+      border: 2px outset black;
+      border-radius: 5px;
+      text-align: center;
+      font-family: 'Lora', serif;
+      color: rgb(0, 0, 0); 
+      padding-bottom: 20px;
+}
+
+
+.presentation {
+      margin-bottom: 20px;
+}
+
+
+body {
+      background-image: url(https://img.freepik.com/photos-premium/cadre-vue-dessus-fleurs-blanches-fond_23-2148427791.jpg?w=2000);
+      background-color: rgb(11, 34, 24);
+      font-family: 'Lora', serif;
+
+}
+
+
+body::before {
+      content: "";
+      background: url(https://img.freepik.com/photos-premium/cadre-vue-dessus-fleurs-blanches-fond_23-2148427791.jpg?w=2000) center center/cover fixed;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      filter: blur(3px);
+
+}
+
+
+.fleurs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-bottom: 20px;
+}
+
+
+.pourquoi { 
+text-align: center;
+}
+
+
+.fleurs img {
+      border-radius: 20px;
+      object-fit: cover;
+}
+
+
+.services {
+      display: flex;
+      flex-direction: row;
+}
+
+
+.nosservice {
+      text-align: center;
+}
+
+/* boites services */
+
+.création {
+      flex: 1;
+      margin: 10px;
+      padding: 10px;
+      border: 3px outset black;
+      border-radius: 5px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+}
+
+    
+.decoration {
+      flex: 1;
+      margin: 10px;
+      padding: 10px;
+      border: 3px outset black;
+      border-radius: 5px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+}
+
+
+.atelier {
+      flex: 1;
+      margin: 10px;
+      padding: 10px;
+      border: 3px outset black;
+      border-radius: 5px;
+      text-align: center;
+      font-family: 'Lora', serif;
+      color: rgb(0, 0, 0);
+}
+
+.footer{
+      display: flex;
+      justify-content:center;
+      background-color: #fff;
+}
+
+
+    /* partie formulaire mail */
+
+
+.form-container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 30px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+      text-align: center;
+      font-family: Merienda;
+      font-weight: light;
+}
+
+h2 {
+      text-align: center;
+      font-family: Merienda;
+}
+
+h3{
+      text-align: center;
+      font-family: Merienda;
+      font-weight: bolder;
+      
+}
+
+h4{
+      text-align: center;
+      font-family: Roboto;
+}
+
+p{
+      text-align: center; 
+      font-family: Roboto;
+      font-weight: bolder;
+}
+
+form {
+      display: flex;
+      flex-direction: column;
+}
+
+label {
+      font-weight: bold;
+}
+
+.form-control {
+      background-color: rgb(241, 214, 214);
+      margin-bottom: 3px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+}
+
+input[type="checkbox"] {
+      margin-bottom:20px;
+
+}
+
+input[type="submit"] {
+      background-color: #637f9a;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 10px 15px;
+      cursor: pointer;
+}
+
+input[type="submit"]:hover {
+      background-color: #2e5d90;
+}
